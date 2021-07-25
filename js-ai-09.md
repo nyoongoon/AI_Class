@@ -102,5 +102,5 @@ let sample : string; //자바 String sample = "";
 : 갈아엎기 
 : 부모클래스의 동일한 이름의 메소드를 새로 재정의
 - 자식이 만든 printinfo()가 기본적으로 호출 
-: this.printinfo vs super.printinfo() 
+: this.printinfo vs super.printinfo() <br/>
 --> cf) super 메소드를 호출해도 부모의 메소드를 호출한 것이 아니고 **부모에게 상속받은 자식의 메소드를 호출**하는 것! 
